@@ -9,6 +9,13 @@ gem 'rails', '~> 5.2'
 gem 'sqlite3'
 gem 'puma', '~> 3.7'
 gem 'sassc'
+gem 'sass-rails'
+gem 'bootstrap-sass'
+gem 'jquery-rails'
+gem 'devise'
+gem 'paperclip'
+gem 'geocoder'
+
 gem 'haml-rails'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
@@ -33,9 +40,3 @@ group :development do
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
-gem 'bootstrap-sass'
-gem 'jquery-rails'
-gem 'devise'
-gem 'paperclip'
-gem 'geocoder'
